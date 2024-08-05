@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  @include mobile {
+    margin-bottom: 64px;
+    width: 100%;
+    max-width: 348px;
+  }
+  a {
+    color: #555555;
+    float: left;
+    padding: 11px 12px;
+    transition: background-color 0.3s;
+    border: 1px solid #555555;
+    font-size: 1.188rem;
+    @include mobile {
+      padding: 11px 13px;
+      font-size: 1rem;
+    }
+  }
+  a.active {
+    background-color: $dark;
+    color: $light;
+  }
+  a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  &-next {
+    background: #f2f2f2;
+  }
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
