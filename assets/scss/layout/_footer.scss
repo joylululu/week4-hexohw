@@ -1,4 +1,71 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+/*footer*/
+.footer {
+  background: $primary;
+  color: $light;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid $light;
+  margin-top: 48px;
+}
+.footer-navbar {
+  margin-bottom: 32px;
+}
+
+.footer-nav {
+  display: flex;
+  padding: 12px 0;
+  margin-bottom: 24px;
+}
+.footer-item {
+  margin-right: 48px;
+}
+.footer-link {
+  display: flex;
+  /*width: 64px;*/
+}
+.footer-ic {
+  display: flex;
+}
+.footer-ic-list {
+  margin-left: 36px;
+}
+.footer-ic-list img {
+  width: 48px;
+}
+
+.footer-contact {
+  margin-bottom: 24px;
+}
+.footer-contact li {
+  font-size: 2rem;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.footer-contact img {
+  width: 36px;
+  margin-right: 36px;
+}
+
+.footer-policy {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.policy-item-r {
+  display: flex;
+  align-items: center;
+}
+
+.policy-item-r a {
+  margin-left: 48px;
+  font-size: 0.875rem;
 }

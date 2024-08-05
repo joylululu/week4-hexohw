@@ -1,4 +1,33 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+/*header*/
+.header {
+  background: $primary;
+  color: $light;
+  width: 100%;
+}
+
+.navbar-logo {
+  padding: 12px 0;
+}
+.navbar-logo-link {
+  background-image: url(https://i.imgur.com/e2DcWQd.png);
+  background-size: cover;
+  width: 80px;
+  height: 49px;
+  display: block;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+}
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+.nav-item {
+  margin-left: 64px;
 }
