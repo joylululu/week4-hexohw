@@ -83,6 +83,8 @@
   }
   &-list a:hover {
     background-color: #dcdcdc;
+    border-bottom: 8px solid $primary;
+    width: 100%;
   }
 }
 
